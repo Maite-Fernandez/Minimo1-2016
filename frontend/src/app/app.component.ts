@@ -22,11 +22,15 @@ export class AppComponent {
   }
   
   listStudents(){
-    this.router.navigateByUrl('/student/all');
+    this.router.navigateByUrl('/student/get');
   }
 
   addStudent(){
     this.router.navigateByUrl('/student/add');
+  }
+
+  getSubjects(){
+    this.router.navigateByUrl('/subject/all');
   }
 
  

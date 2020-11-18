@@ -1,4 +1,8 @@
-  <div class="students">
+<div class="student-list-title">
+  <h2>LIST OF STUDENTS:</h2>
+</div>
+
+<div class="students">
     <app-student-card *ngFor="let student of students; index as i"
       [student]="student" [index]="i">
     </app-student-card>  

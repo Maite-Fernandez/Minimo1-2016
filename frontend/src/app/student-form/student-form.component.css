@@ -10,14 +10,14 @@
 }
 
 .login-header{
-    background: hotpink; 
+    background: rgb(88, 165, 253);
     padding: 10px;
     font-weight: normal;
     text-align: center;
 }
 
 .login-container{
-    background: rgb(255, 204, 230);
+    background: rgb(152, 212, 247);
     padding: 10px;
 }
 

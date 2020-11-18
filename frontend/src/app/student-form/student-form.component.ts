@@ -55,7 +55,7 @@ export class StudentFormComponent implements OnInit {
   }
   else{
     this.studentService.addStudent(student).subscribe((student: Student) => {
-      this.router.navigateByUrl('/subject/all');
+      this.router.navigateByUrl('/student/get');
   });
   }
 }

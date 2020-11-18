@@ -12,7 +12,6 @@ import { Student } from '.././model/student';
 export class StudentListComponent implements OnInit {
 
   students: Student[];
-  subjectName: string;
 
   constructor(public studentService: StudentService, private router: Router, private route: ActivatedRoute) { }
 

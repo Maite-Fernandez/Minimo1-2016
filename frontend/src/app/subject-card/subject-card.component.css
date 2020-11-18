@@ -1,5 +1,5 @@
 .subject-card{
-    background-color: rgb(82, 150, 252);
+    background-color: rgb(133, 182, 255);
 }
 
 .subject-title{
@@ -18,4 +18,10 @@
 
 .button{
     cursor: pointer;
+    margin-left: 20px;
+    border-radius: 12px;
+    font-size: 12px;
+    background-color: #d21938;
+    color: white;
+
 }

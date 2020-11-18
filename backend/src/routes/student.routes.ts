@@ -5,7 +5,7 @@ import studentController from '../controllers/student.controller'
 const router = Router();
 
 // HTTP Requests (route, controller function)
-router.get('get/:name', studentController.getStudent);
+router.get('/get/:name', studentController.getStudent);
 router.post('/add', studentController.postStudent);
 router.get('/get', studentController.getStudents);
 

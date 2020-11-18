@@ -8,9 +8,9 @@ import { StudentListComponent } from './student-list/student-list.component';
 const routes: Routes = [
   { path: '', pathMatch: 'full', redirectTo: 'subject/all'},
   { path: 'subject/all', component: SubjectListComponent},
-  { path: 'student/all', component: StudentListComponent},
+  { path: 'student/get', component: StudentListComponent},
   { path: 'subject/add', component: SubjectFormComponent},
-  { path: 'student/:name', component: StudentFormComponent},
+  { path: 'student/add', component: StudentFormComponent},
   { path: 'subject/addStudent/:subject', component: StudentFormComponent}
   
 ];

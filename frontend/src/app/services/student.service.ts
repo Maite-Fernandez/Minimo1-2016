@@ -12,7 +12,7 @@ export class StudentService {
   constructor(private http: HttpClient) { }
 
   getStudents(){
-    return this.http.get<Student[]>(environment.apiURL + '/student/all')
+    return this.http.get<Student[]>(environment.apiURL + '/student/get')
   }
 
   addStudent(student: Student){

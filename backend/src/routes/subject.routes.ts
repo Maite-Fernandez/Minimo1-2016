@@ -11,5 +11,4 @@ router.post('/add', subjectController.postSubject);
 router.post('/addStudent/:subject',subjectController.addStudent);
 
 //Export router to use the routes in app.ts
-//ksjhfkjdsfksjflkjs
 export default router;

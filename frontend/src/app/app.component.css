@@ -3,11 +3,10 @@
     left: 0;
     right: 0;
     height: 60px;
-    display: flex;
     align-items: center;
     background-color: #1976d2;
     color: white;
-    font-size: large;
+    font-size: 20px;
     font-weight: 600;
   }
 
@@ -15,9 +14,15 @@
     margin: 0 16px;
   }
   .center{
-    margin-left: 2000px;
+    position: left;
+    margin-left: 800px;
   }
 
   .button{
-    margin-left: 15px;
+    margin-left: 20px;
+    border-radius: 12px;
+    font-size: 12px;
+    background-color: #d21938;
+    color: white;
+
   }
