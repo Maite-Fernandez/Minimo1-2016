@@ -1,0 +1,30 @@
+.login{
+    width: 400px;
+    margin: 16px auto;
+    font-size: 16px;
+}
+
+.login-header{
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.login-header{
+    background: rgb(88, 165, 253);
+    padding: 10px;
+    font-weight: normal;
+    text-align: center;
+}
+
+.login-container{
+    background: rgb(152, 212, 247);
+    padding: 10px;
+}
+
+.login input{
+    box-sizing: border-box;
+    display: block;
+    width: 100%;
+    border-style: groove;
+    outline: 0;
+}

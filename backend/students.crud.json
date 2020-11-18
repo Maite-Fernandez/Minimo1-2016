@@ -1,0 +1,13 @@
+{
+"name" : "Juan",
+"address" : "c/Rue del percebe ...",
+"phones" : [{"name": "home", "number" : "+34 778297777"},{"name":"work", "number" : "+34 123999999"}]}
+}
+{
+"name" : "Eduard",
+"address" : "c/Rue del cangrejo ...",
+"phones" : [{"name": "home", "number" : "+34 777727777"},{"name":"work", "number" : "+34 999999999"}]}
+{
+"name" : "David",
+"address" : "c / Rue del cargol ...",
+"phones" : [{"name": "home", "number" : "+34 777234777"},{"name":"work", "number" : "+34 999999234"}]}

@@ -1,0 +1,17 @@
+<div class="student-card" *ngIf="student">
+
+    <div class="student-name">
+        Student {{index+1}}: {{student.name}}
+    </div>
+
+    <div class="student-address">
+        Address: {{student.address}}
+    </div>
+
+    Phones:
+    <div class="student-phones" *ngFor="let phone of student.phones">
+        <p *ngIf="phone?.name!=null">{{phone.name}} : {{phone.number}} </p>
+    </div> 
+    
+</div>
+<br>

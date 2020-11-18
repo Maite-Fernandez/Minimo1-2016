@@ -1,0 +1,13 @@
+{
+"name" : "EA",
+"students" : [
+ObjectId("5fb42e47bfcb987cc719e996"),
+ObjectId("5fb42e47bfcb987cc719e997")
+]
+}
+{
+"name" : "IOT",
+"students" : [
+ObjectId("5fb42e47bfcb987cc719e998")
+]
+}

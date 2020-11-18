@@ -1,0 +1,9 @@
+<div class="subject-list-title">
+  <h2>LIST OF SUBJECTS:</h2>
+</div>
+
+<div class="subjects">
+    <app-subject-card *ngFor="let subject of subjects; index as i"
+      [subject]="subject" [subjectIndex]="i">
+    </app-subject-card>
+</div>

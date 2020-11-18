@@ -1,0 +1,21 @@
+.subject-card{
+    background-color: rgb(82, 150, 252);
+}
+
+.subject-title{
+    text-align: center;
+    background-color: #1976d2;
+    color: white;
+}
+
+.students{
+    margin-left: center;
+}
+
+.center{
+    text-align: right;
+}
+
+.button{
+    cursor: pointer;
+}
