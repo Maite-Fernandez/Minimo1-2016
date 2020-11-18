@@ -5,9 +5,9 @@ import studentController from '../controllers/student.controller'
 const router = Router();
 
 // HTTP Requests (route, controller function)
-router.get('/:name', studentController.getStudent);
+router.get('get/:name', studentController.getStudent);
 router.post('/add', studentController.postStudent);
-router.get('/getAll', studentController.getStudents);
+router.get('/get', studentController.getStudents);
 
 //Export router to use the routes in app.ts
 export default router;
